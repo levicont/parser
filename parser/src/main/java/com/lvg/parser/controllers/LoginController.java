@@ -12,6 +12,7 @@ public class LoginController {
 	@RequestMapping(method=RequestMethod.GET)
 	public String getLoginPage(Model model){
 		model.addAttribute("message", "Parser message");
+		String tmp = "Дядя вадя";
 		return "login";
 	}
 	
